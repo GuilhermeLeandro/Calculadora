@@ -10,5 +10,5 @@ public class TestCalculadora {
             Calculadora calculadora = new Calculadora(4.0, 2.0);
             double retornoEsperado = 6.0;
             double retornoFeito = calculadora.getAdicao();
-            TestCalculadora2tornoEsperado, retornoFeito, 0);
+            assertEquals(retornoEsperado, retornoFeito, 0);
 }
